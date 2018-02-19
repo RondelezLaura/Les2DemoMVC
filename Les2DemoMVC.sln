@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les2DemoMVC", "Les2DemoMVC\Les2DemoMVC.csproj", "{31283D09-15D2-4A9D-860C-9BF0261E032A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les2DemoMVC", "Les2DemoMVC\Les2DemoMVC.csproj", "{31283D09-15D2-4A9D-860C-9BF0261E032A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHowest", "MyHowest\MyHowest.csproj", "{E724F1DE-B5B7-42E6-AB12-54147A04D367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{31283D09-15D2-4A9D-860C-9BF0261E032A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31283D09-15D2-4A9D-860C-9BF0261E032A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31283D09-15D2-4A9D-860C-9BF0261E032A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E724F1DE-B5B7-42E6-AB12-54147A04D367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E724F1DE-B5B7-42E6-AB12-54147A04D367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E724F1DE-B5B7-42E6-AB12-54147A04D367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E724F1DE-B5B7-42E6-AB12-54147A04D367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
