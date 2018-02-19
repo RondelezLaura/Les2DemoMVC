@@ -18,6 +18,7 @@ namespace Les2DemoMVC.Controllers
         {
             List<Student> studenten = new List<Student> { new MyHowest.Student {Id=23, Naam="nope", AfstudeerGraad=Graad.Voldoening },
             new MyHowest.Student {Id=25, Naam="ugh", AfstudeerGraad=Graad.Onderscheiding }};
+            ViewBag.Studenten = studenten;
             return View();
         }
     }

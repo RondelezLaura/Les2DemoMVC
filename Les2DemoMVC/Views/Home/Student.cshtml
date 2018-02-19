@@ -1,4 +1,4 @@
-﻿
+﻿@using MyHowest;
 @{
     Layout = null;
 }
@@ -11,5 +11,16 @@
     <title>Student</title>
 </head>
 <body>
-</body>
+    <h1>Student</h1>
+
+    @foreach (Student student in ViewBag.Studenten)
+    {
+    <ul>
+        <li>@student.Id</li>
+        <li>@student.Naam</li>
+        <li>@student.AfstudeerGraad</li>
+    </ul>
+    }
+      
+    </body>
 </html>
